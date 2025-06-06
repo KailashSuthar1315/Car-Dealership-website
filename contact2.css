@@ -1,0 +1,124 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #111;
+    color: white;
+    background: url('https://images.pexels.com/photos/4002395/pexels-photo-4002395.jpeg?auto=compress&cs=tinysrgb&w=1200') no-repeat center center/cover;
+
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 35px;
+    font-weight: bold;
+    color: red;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: red;
+}
+
+/* Contact Section */
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-top: 80px; /* To avoid overlap with navbar */
+    font-size: large;
+}
+
+.contact-box {
+    text-align: center;
+    max-width: 1400px;
+    max-height: 1400px;
+    background: rgba(0, 0, 0, 0.8); /* Dark overlay */
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* Contact Content */
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+/* Contact Info */
+.contact-info {
+    width: 40%;
+    text-align: left;
+    background: rgba(255, 0, 0, 0.8);
+    padding: 40px;
+    border-radius: 10px;
+    
+}
+
+/* Increase form size */
+.contact-form {
+    width: 60%;  /* Increase form width */
+    text-align: left;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 70px;  /* Add more padding */
+    border-radius: 10px;
+}
+
+/* Increase input & textarea size */
+input, textarea {
+    width: 100%;
+    padding: 15px;  /* Increase padding */
+    margin: 10px 0;
+    font-size: 1.2rem;  /* Increase font size */
+    border: none;
+    border-radius: 5px;
+}
+
+/* Make button bigger */
+button {
+    width: 100%;
+    padding: 15px;  /* Increase padding */
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;  /* Increase button text size */
+}
+
+button:hover {
+    background: darkred;
+}
+

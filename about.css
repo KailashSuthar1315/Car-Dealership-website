@@ -1,0 +1,144 @@
+/* Reset Default Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    background: #f5f5f5;
+    background: url('https://images.pexels.com/photos/3311574/pexels-photo-3311574.jpeg?auto=compress&cs=tinysrgb&w=1200') no-repeat center center/cover;
+    
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: black;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size:35px;
+    font-weight: bold;
+    color: red;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.nav-links a:hover {
+    color: red;
+}
+
+/* About Section */
+.about {
+    background: url('https://images.pexels.com/photos/112460/pexels-photo-112460.jpeg?auto=compress&cs=tinysrgb&w=1200') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.about-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    color: white;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 900px;
+}
+
+.about h1 {
+    font-size: 46px;
+    margin-bottom: 10px;
+}
+
+.about h1 span {
+    color: red;
+}
+
+.about p {
+    font-size: 25px;
+    margin-bottom: 20px;
+    padding: auto;
+}
+
+.about-boxes {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.box {
+    background: red;
+    padding: 40px;
+    border-radius: 8px;
+    flex: 1;
+}
+
+.box h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.box p, .box ul {
+    font-size: 26px;
+    color: white;
+}
+
+.box ul {
+    list-style: none;
+}
+
+
+
+.btn {
+    display: inline-block;
+    margin-top: 40px;
+    padding: 10px 20px;
+    background: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background: darkred;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-boxes {
+        flex-direction: column;
+    }
+
+    .box {
+        width: 100%;
+    }
+}

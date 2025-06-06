@@ -1,0 +1,101 @@
+/* 🌍 Reset & Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: url('https://images.pexels.com/photos/919073/pexels-photo-919073.jpeg?auto=compress&cs=tinysrgb&w=1200') no-repeat center center/cover;
+    background-color: #faf9f9;
+}
+
+/* 🔝 Navigation Bar */
+nav {
+    background: #333;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* 📞 Contact Numbers Section */
+#contact-numbers {
+    padding: 30px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    margin-bottom: 50px;
+}
+
+/* ☎️ Phone Icons
+#phone-icons {
+    margin: 30px 0;
+    width: 300%;
+}
+
+#phone-icons img {
+    width: 80px;
+    margin: 10px;
+} */
+
+
+/* 📩 Contact Form */
+#contact-form {
+    margin-top: 150px;
+    background: #333;
+    color: white;
+    padding: 50px 0;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    background: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
