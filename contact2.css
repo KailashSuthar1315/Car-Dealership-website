@@ -59,7 +59,7 @@ nav {
     align-items: center;
     height: 100vh;
     padding-top: 80px; /* To avoid overlap with navbar */
-    font-size: large;
+    font-size:30px;
 }
 
 .contact-box {
@@ -67,7 +67,7 @@ nav {
     max-width: 1400px;
     max-height: 1400px;
     background: rgba(0, 0, 0, 0.8); /* Dark overlay */
-    padding: 30px;
+    padding: 80px;
     border-radius: 10px;
 }
 
@@ -80,11 +80,14 @@ nav {
 
 /* Contact Info */
 .contact-info {
-    width: 40%;
+    width: 60%;
     text-align: left;
-    background: rgba(255, 0, 0, 0.8);
+    background: rgba(140, 139, 139, 0.8);
     padding: 40px;
-    border-radius: 10px;
+    border-radius: 20px;
+    font-size: 27px;
+    font-style: oblique;
+    
     
 }
 
@@ -92,26 +95,29 @@ nav {
 .contact-form {
     width: 60%;  /* Increase form width */
     text-align: left;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(30, 30, 30, 0.7);
     padding: 70px;  /* Add more padding */
     border-radius: 10px;
+    font-size: 27px;
+    font-style: oblique;
 }
 
 /* Increase input & textarea size */
 input, textarea {
     width: 100%;
     padding: 15px;  /* Increase padding */
-    margin: 10px 0;
+    margin: 15px 0;
     font-size: 1.2rem;  /* Increase font size */
     border: none;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 
 /* Make button bigger */
 button {
+    margin-top: 20px;
     width: 100%;
     padding: 15px;  /* Increase padding */
-    background: red;
+    background: rgb(95, 95, 95);
     color: white;
     border: none;
     cursor: pointer;
